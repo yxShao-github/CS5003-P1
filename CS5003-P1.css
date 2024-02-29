@@ -1,0 +1,85 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Tahoma, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  min-width: 600px;
+  /* Minimum width to ensure good display on small screens */
+  background-color: #ffffff;
+  padding: 120px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  /* Add borders with rounded corners */
+  text-align: center;
+  /* Make sure all elements are centered */
+}
+
+#question-difficulty {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+#countdown-timer {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+
+
+header h1 {
+  margin: 0 0 50px;
+}
+
+header p {
+  color: #333;
+  margin: 0 0 15px;
+  /* Adjust spacing to provide sufficient space for titles and paragraphs */
+}
+
+button {
+  background-color: #4CAF50;
+  /* Button background color */
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  /* Increasing the padding of buttons makes it easier to click */
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  /* Add transition effects */
+}
+
+button:hover {
+  background-color: #000000;
+  /* The background color when the button hovers */
+}
+
+main {
+  margin: 20px 0;
+  /* Adjust the outer margin of the main content area */
+}
+
+/* Set different colors for different button types */
+.start-btn {
+  background-color: #007bff;
+}
+
+.restart-btn {
+  background-color: #0046f8;
+}
+
+.quit-btn {
+  background-color: #ff0019;
+}
